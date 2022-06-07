@@ -2,7 +2,7 @@
 ***
 ## Personal information
 ***
-#### Name,surname, contacts 
+#### Name,surname, contacts
  - Alexandr Grischenko
  - +79811716835(Telegram, WhatsApp)
  - email: foxxtrott.ag@gmail.com
@@ -17,16 +17,16 @@
 ## Education
 <pre>
 2016 - 2022
-Engineer - Air traffic controller 
+Engineer - Air traffic controller
 Saint Petersburg State University
 </pre>
 ***
-## Languages  
+## Languages
  - English
  - Russian
  - Belarussian
 ***
-## IT skills 
+## IT skills
 No IT experience. Basic knowlege of HTML & CSS
 ***
 ## Self information
