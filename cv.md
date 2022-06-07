@@ -15,9 +15,9 @@
  - Duties: The duties of the rescuer primarily included monitoring the water and compliance with safety rules on the water. In case of an emergency, it was necessary to provide first aid.
 ***
 ## Education
-2016 - 2022
+<pre>2016 - 2022
 Engineer - Air traffic controller 
-Saint Petersburg State University
+Saint Petersburg State University<pre>
 ***
 ## Languages  
  - English
