@@ -17,7 +17,7 @@
 ## Education
 <pre>2016 - 2022
 Engineer - Air traffic controller 
-Saint Petersburg State University<pre>
+Saint Petersburg State University</pre>
 ***
 ## Languages  
  - English
