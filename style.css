@@ -1,6 +1,6 @@
 body{
     font-family: 'Nuosu SIL', serif;
-    background: bisque;
+    background: whitesmoke;
 }
 
 *{
@@ -16,24 +16,50 @@ body{
 
 }
 
+main{
+    margin: 15px;
+}
 .container{
     max-width: 1440px;
     margin: 20 auto;
 }
 
 .nav-list{
-    display: flex ;
+    display:flex ;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
 
-.nav-item{
-    margin: 10px;
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    transition: 1s;
+
 }
+
+
+.nav-link:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 
 html{
     scroll-behavior: smooth;
 }
 
+.paragraph1{
+    max-width: 80%;
+;
+}
 
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
