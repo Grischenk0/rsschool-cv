@@ -1,0 +1,113 @@
+body{
+    font-family: 'Nuosu SIL', serif;
+    background: rgba(212, 214, 201, 0.317);
+    line-height: 1.5;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-title{
+    letter-spacing: 7px;
+    color:olive;
+}
+
+main{
+    margin: 15px;
+}
+.container{
+    max-width: 1440px;
+    margin: 20 auto;
+}
+
+.nav-list{
+    display:flex ;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    transition: 1s;
+
+}
+
+
+.nav-link:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-link:hover{
+ cursor:pointer;
+ text-decoration:underline;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.text{
+    max-width: 80%;
+    margin: 0 15px;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+.RSlogo{
+    position: relative;
+    left: 1100px;
+    width: 121px;
+    height: 40px;
+    ;
+
+}
+
+footer{
+    margin: 0px;
+    background-color:darkolivegreen;
+}
+
+.header{
+    background-color: darkolivegreen;
+}
