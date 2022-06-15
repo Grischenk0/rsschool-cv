@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> " " </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Alexandr Grischenko</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#selfinformation" class="nav-link"> About Me</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link"> Contact Me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link"> Education </a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link"> Courses </a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link"> IT Skills </a></li>
+          <li class="nav-item"><a href="#code" class="nav-link"> Code Example </a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link"> Languages </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="name" >
+        <h1 class="section-title"> ALEXANDR GRISCHENKO </h1>
+        <img src="assets/img/IMG_4839.ico" alt="MyPhoto">
+      </section>
+
+      <section class="section" id="selfinformation" >
+        <h3 class="section-title"> ABOUT ME </h3>
+        <p class="text"> My name is Alexander. At the age of 23, having received the specialty of an air traffic controller,
+          I realised that I wanted to develop further and study IT. In this regard,
+          I have signed up for a course in JS and am just starting training. I'll be honest,
+          this is the second time I've taken this course. The first time I signed up for stage 1 and realized that
+          the lack of initial knowledge makes itself felt. Therefore, I decided to leave the course, continue self-study
+          and start over from stage 0.</p>
+      </section>
+      <section class="section" id="contacts" >
+        <h3 class="section-title"> CONTACT ME </h3>
+        <ul>
+          <li > Telegram:<a href="https://t.me/Grischenk0" class="contact-link">  Grischenk0 </a></li>
+          <li > Email:<a href="mailto:foxxtrott.ag@gmail.com" class="contact-link">  foxxtrott.ag@gmail.com</a></li>
+          <li > Github:<a href="https://github.com/Grischenk0" class="contact-link">  Grischenk0 </a></li>
+
+        </ul>
+      </section>  <section class="section" id="code" >
+        <h3 class="section-title"> CODE </h3>
+        <code class="text">
+          function checkParent (src, dest) {<Br>
+           while (src != null) {<Br>
+             if (src.tagName == dest) return src<Br>
+              src = src.parentElement<Br>
+           }<Br>
+           return null<Br>
+          }</code>
+      </section>
+
+
+      <section class="section" id="education" >
+        <h3 class="section-title"> EDUCATION </h3>
+      <div class="text">
+        <p>2016 - 2022</p>
+        <p>Engineer - Air traffic controller</p>
+        <p>Saint Petersburg State University of Civil Aviation</p>
+      </div>
+      </section>
+      <section class="section" id="skills" >
+        <h3 class="section-title"> IT SKILLS </h3>
+        <p class="text">Basic knowledge of HTML & CSS</p>
+      </section>
+
+       <section class="section" id="courses" >
+        <h3 class="section-title"> COURSES </h3>
+        <p>
+          <ul>
+            <li> Rolling Scopes School</li>
+          </ul>
+      </section>
+      <section class="section" id="languages" >
+        <h3 class="section-title"> LANGUAGES </h3>
+        <ul>
+          <li> English </li>
+          <li> Russian </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+
+
+  <footer class="footer">
+
+    <div class="container">
+      <div class="container footer-container">
+        <div >© 2022 <a href="https://github.com/Grischenk0" class="github nav-link">Grischenk0</a></div>
+        <p class="footerp"><a href="https://rs.school/js/"><img class="RSlogo" src="assets/img/RSShool.ico" alt="RSLogo"></a></p>
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
 </html>
